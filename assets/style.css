@@ -22,6 +22,7 @@
   margin-top: 0.5rem;
   border: 2px solid #00aaff;
   display: inline-block;
+  background-color: #001155;
 }
 
 .button:hover {
@@ -32,7 +33,9 @@
   text-shadow: 0px 0px 5px #777777;
   font-size: 2.5rem;
 }
-
+.glow {
+  text-shadow: 0px 0px 5px #777777;
+}
 
 /* A tag */
 a:visited {
@@ -44,11 +47,15 @@ a {
   color: #00aaff;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 a:hover {
   text-decoration: underline;
 }
 
-#portfolio {
+#list {
   margin-top: 1rem;
   width: 100%;
   margin-left: auto;
@@ -58,20 +65,20 @@ a:hover {
 }
 
 @media (width >= 48rem) {
-  #portfolio {
-    width: 33%;
+  #list {
+    width: 66%;
   }
   #contact a {
     display: inline !important;
   }
 }
 
-#portfolio .item:hover {
+#list .item:hover {
   background-color: #111111;
   border-color: #0066bb;
 }
 
-#portfolio .item {
+#list .item {
   border: 2px solid #00aaff;
   padding: 0.5rem;
   width: 100%;
