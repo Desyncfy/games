@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doom</title>
+    <link href="../assets/style.css" rel="stylesheet">
+
+    <!-- js-dos style sheet -->
+    <link rel="stylesheet" href="../assets/js-dos.css">
+
+    <!-- js-dos -->
+    <script src="https://v8.js-dos.com/latest/js-dos.js"></script>
+  </head>
+  <body>
+    <div style="display: flex; height: 72px;">
+      <img src="../assets/Desync.png" alt="Desync Logo">
+      <span style="margin-top: auto; margin-bottom: auto; margin-left: 16px; font-size: 1.5em;">desync.d</span>
+    </div>
+    <div id="dos" style="width: 100vw; height: 55vw; margin-top: 8px;"></div>
+
+    <script>
+      Dos(document.getElementById("dos"), {
+        url: "https://games.desyncd.xyz/assets/jsdos/doom.jsdos",
+      });
+    </script>
+  </body>
+</html>
